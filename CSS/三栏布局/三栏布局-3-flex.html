@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>三栏布局-3-flex</title>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+    }
+
+    div {
+      min-height: 100px;
+    }
+  </style>
+</head>
+
+<body style="display: flex;">
+  <!-- 题目：
+  假设高度已知，请写出三栏布局，其中左栏、右栏宽度各为 300px，中间自适应。 -->
+
+  <div style="width: 300px;background: #ccc;"></div>
+  <div style="flex:1">
+    <h1>flex布局</h1>
+    1.我是flex布局的中间部分
+    2.我是flex布局的中间部分
+    3.我是flex布局的中间部分
+  </div>
+  <div style="width: 300px;background: #ccc;"></div>
+
+
+</body>
+
+</html>
